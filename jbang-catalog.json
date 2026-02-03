@@ -1,0 +1,14 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "brokk": {
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.20.4.5/brokk-0.20.4.5.jar",
+      "java": "21",
+      "java-options": [
+        "--sun-misc-unsafe-memory-access=allow",
+        "--enable-native-access=ALL-UNNAMED"
+      ]
+    }
+  },
+  "templates": {}
+}
