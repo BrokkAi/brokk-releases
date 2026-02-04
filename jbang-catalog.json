@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "brokk": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.21.0.2/brokk-0.21.0.2.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.21.0.4/brokk-0.21.0.4.jar",
       "java": "21",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
