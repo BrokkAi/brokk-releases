@@ -5,14 +5,9 @@
       "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.20.4.7/brokk-0.20.4.7.jar",
       "java": "21",
       "java-options": [
-        "--enable-native-access=javafx.graphics,javafx.media,javafx.web,ALL-UNNAMED"
+        "--enable-native-access=ALL-UNNAMED"
       ],
-      "dependencies": [
-        "org.openjfx:javafx-controls:22",
-        "org.openjfx:javafx-fxml:22",
-        "org.openjfx:javafx-swing:22",
-        "org.openjfx:javafx-web:22"
-      ]
+      "main": "ai.brokk.cli.BrokkCli"
     }
   },
   "templates": {}
