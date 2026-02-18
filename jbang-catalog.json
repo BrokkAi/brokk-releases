@@ -2,12 +2,20 @@
   "catalogs": {},
   "aliases": {
     "brokk": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.21.0.4/brokk-0.21.0.4.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.0.beta1/brokk-0.23.0.beta1.jar",
       "java": "21",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
       ],
       "main": "ai.brokk.cli.BrokkCli"
+    },
+    "brokk-headless": {
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.0.beta1/brokk-0.23.0.beta1.jar",
+      "java": "21",
+      "main": "ai.brokk.executor.HeadlessExecutorMain",
+      "java-options": [
+        "--enable-native-access=ALL-UNNAMED"
+      ]
     }
   },
   "templates": {}
