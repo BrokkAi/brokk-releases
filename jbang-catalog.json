@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "brokk": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta10/brokk-0.23.3.beta10.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta11/brokk-0.23.3.beta11.jar",
       "java": "21",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
@@ -10,7 +10,7 @@
       "main": "ai.brokk.cli.BrokkCli"
     },
     "brokk-headless": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta10/brokk-0.23.3.beta10.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta11/brokk-0.23.3.beta11.jar",
       "java": "21",
       "main": "ai.brokk.executor.HeadlessExecutorMain",
       "java-options": [
@@ -18,23 +18,23 @@
       ]
     },
     "brokk-core": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta10/brokk-core-0.23.3.beta10.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta11/brokk-core-0.23.3.beta11.jar",
       "java": "21",
       "main": "ai.brokk.mcpserver.BrokkCoreMcpServer",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
       ]
     },
-    "brokk-0.23.3.beta7": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta7/brokk-0.23.3.beta7.jar",
+    "brokk-0.23.3.beta10": {
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta10/brokk-0.23.3.beta10.jar",
       "java": "21",
       "main": "ai.brokk.cli.BrokkCli",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
       ]
     },
-    "brokk-0.23.3.beta6": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta6/brokk-0.23.3.beta6.jar",
+    "brokk-0.23.3.beta7": {
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.3.beta7/brokk-0.23.3.beta7.jar",
       "java": "21",
       "main": "ai.brokk.cli.BrokkCli",
       "java-options": [
