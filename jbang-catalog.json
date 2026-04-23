@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "brokk": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/brokk-code-0.7.1/brokk-brokk-code-0.7.1.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.5.beta1/brokk-0.23.5.beta1.jar",
       "java": "21",
       "java-options": [
         "--enable-native-access=ALL-UNNAMED"
@@ -10,7 +10,7 @@
       "main": "ai.brokk.cli.BrokkCli"
     },
     "brokk-headless": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/brokk-code-0.7.1/brokk-brokk-code-0.7.1.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.5.beta1/brokk-0.23.5.beta1.jar",
       "java": "21",
       "main": "ai.brokk.executor.HeadlessExecutorMain",
       "java-options": [
@@ -18,7 +18,7 @@
       ]
     },
     "brokk-core": {
-      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/brokk-code-0.7.1/brokk-core-brokk-code-0.7.1.jar",
+      "script-ref": "https://github.com/BrokkAi/brokk-releases/releases/download/0.23.5.beta1/brokk-core-0.23.5.beta1.jar",
       "java": "21",
       "main": "ai.brokk.mcpserver.BrokkCoreMcpServer",
       "java-options": [
